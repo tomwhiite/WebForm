@@ -35,8 +35,18 @@
       				<input id="address" name="address" type="text" required></input>
       			</li>
       			<li>
-      				<label for="state">State</label>
-      				<input id="state" name="state" type="text" required>
+      				<label>State</label>
+              <div>
+              <select id="select" name="select" data-form-required>
+              <option disabled label="Select One" selected value="">Select One</option>
+              <option label="NSW" value="NSW">NSW</option>
+              <option label="VIC" value="VIC">VIC</option>
+              <option label="QLD"   value="QLD">QLD</option>
+              <option label="SA" value="SA">SA</option>
+              <option label="WA" value="WA">WA</option>
+              <option label="TAS" value="TAS">TAS/option>
+              </select>
+              </div>
       			</li>
       			<li>
       				<label for="country">Country</label>
